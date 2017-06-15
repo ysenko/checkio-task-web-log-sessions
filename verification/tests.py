@@ -143,5 +143,11 @@ user2;;hubspot.com;;2379;;3"""},
 
             "answer": """name;;checkio.org;;1;;1
 name;;checkio.org;;1;;1"""},
+
+        {"input": """2013-02-03-04-00-00;;user2;;http://checkio.org/task
+2013-02-03-03-00-00;;user2;;http://checkio.org/task""",
+         "answer": """user2;;checkio.org;;1;;1
+user2;;checkio.org;;1;;1""",
+         "explanation": "Request at the bottom of the file happened in the past."},
     ]
 }
